@@ -1,14 +1,13 @@
 import React from 'react'
-import {Navbar, Nav, Button, FormControl, Form, Carousel} from 'react-bootstrap'; 
-import  { NavLink, Link }  from 'react-router-dom'
+import {Navbar, Nav, FormControl, Form} from 'react-bootstrap'; 
+import  { NavLink }  from 'react-router-dom'
 import './NavBar.css'
 
 function catch_link() {
-  var color;
   var target = document.getElementById("search").value;
   var T_link = ["France","/search/FR", "Italie","/search/IT", "Allemagne","/search/DE", "Etats-Unis","/search/US", "Japon","/search/JP", "Afrique du Sud","/search/ZA", "Royaume-Uni","/search/GB", "Canada","/search/CA", "Espagne","/search/ES", "Russie","/search/RU"];
   for (let i = 0; i < T_link.length; i++) {
-      if (target == T_link[i]) {
+      if (target === T_link[i]) {
           window.location = T_link[i + 1];
           // color = document.getElementById("ancre5");
           // color.style.backgroundColor = "yellow";

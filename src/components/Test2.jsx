@@ -7,7 +7,7 @@ import {useParams, Link} from 'react-router-dom'
 
 const Test2 = () => {
   const [camCategory, setCamCategory] = useState([]);
-  const [country , setCountry] = useState('FR');
+  // const [country , setCountry] = useState('FR');
   let shuffle1 = Math.floor(Math.random()*50)
   let shuffle2 = Math.floor(Math.random()*50)
   let shuffle3 = Math.floor(Math.random()*50)
@@ -19,6 +19,7 @@ const Test2 = () => {
 
   useEffect (() => {
     getData()
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   },[]) 
   
   let {countryName} = useParams()

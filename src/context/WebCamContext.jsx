@@ -4,13 +4,14 @@ import axios from 'axios'
 export const WebCamContext = createContext()
 export const WebCamController = (props) => {
   const [cam, setCam] = useState([]);
-  const [country, setCountry]= useState('FR')
+  // const [country, setCountry]= useState('FR')
   let shuffle1 = Math.floor(Math.random()*50)
   let shuffle2 = Math.floor(Math.random()*50)
   let shuffle3 = Math.floor(Math.random()*50)
 
   useEffect (() => {
     getData()
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   },[]) 
 
   const getData = () =>{

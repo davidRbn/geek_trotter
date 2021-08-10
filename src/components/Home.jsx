@@ -1,9 +1,9 @@
-import React, {useContext, useEffect} from 'react'
+import React, {useContext} from 'react'
 import { WebCamContext } from '../context/WebCamContext'
 import './home.css'; 
 
 const Home =()=> {
-  const [cam, setCam] = useContext(WebCamContext)
+  const [cam] = useContext(WebCamContext)
 
   return(
     <div className="body">
@@ -14,9 +14,9 @@ const Home =()=> {
         <br/>Voici nos quelques idées du jour : 
       </p>
       <div className="iframe">
-        {cam.map(e =>{ 
+        {cam.map((e,index) =>{ 
           return(
-          <div className = 'homepage'>
+          <div key={index} className = 'homepage'>
           <iframe 
           title={e.title}
           width="300"
