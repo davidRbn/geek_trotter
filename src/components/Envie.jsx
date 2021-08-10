@@ -27,7 +27,7 @@ console.log(category)
 console.log(camCategory)
   return(
     <div className="test">
-      <Carousel > 
+      <Carousel style={{width:'100%'}} > 
         <Carousel.Item>
           <img
             name ='mountain'
