@@ -1,0 +1,36 @@
+.test {
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.ok {
+  height: 489px;
+  width: 100%;
+}
+
+.btn-primary btn btn-primary {
+  background-color: rgba(216, 164, 127);
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  color: rgba(39, 41, 50) !important;
+}
+
+.Iframe {
+  padding: 10px;
+}
+
+img:active {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 50%;
+}
+
+.text-carousel {
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 2px 2px rgb(0, 0, 0);
+  font-weight: bold !important;
+}

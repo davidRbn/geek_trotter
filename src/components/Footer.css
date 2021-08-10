@@ -1,0 +1,37 @@
+.footer {
+  background-color: rgba(231, 236, 239, 0.6) !important;
+  color: rgba(39, 41, 50);
+  font-style: italic;
+  font-size: smaller;
+  display: block;
+  align-items: center;
+  height: 5rem;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+}
+
+li {
+  margin-top: 15px;
+  margin-bottom: -15px;
+}
+
+.RS {
+  height: 20px;
+  max-width: 100%;
+  margin-left: 10px;
+}
+
+.FooterLink {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}

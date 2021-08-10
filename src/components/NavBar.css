@@ -1,0 +1,32 @@
+.dark {
+  background-color: rgba(231, 236, 239, 0.6) !important;
+}
+
+.boutton {
+  color: rgba(15, 113, 115) !important;
+}
+
+.Title {
+  color: rgba(39, 41, 50);
+  font-family: "Carnet-de-voyage";
+}
+
+.Lien {
+  color: rgba(15, 113, 115) !important;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+input::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+input[list] {
+  background-color: white;
+  color: black;
+}

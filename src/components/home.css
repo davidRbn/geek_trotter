@@ -1,0 +1,56 @@
+.iframe {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+  /* background-color: rgba(231,236,239) !important */
+}
+
+.body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  min-height: 100vh;
+  width: auto;
+}
+
+/* .body {
+  padding: 35px;
+} */
+
+h1 {
+  color: rgba(216, 164, 127) !important;
+  font-family: "Carnet-de-voyage";
+}
+
+p {
+  color: rgba(216, 164, 127) !important;
+  font-family: "Willg";
+  font-size: 25px;
+}
+
+h6 {
+  color: rgba(39, 41, 50) !important;
+  font-family: "Willg";
+  font-size: 25px;
+}
+
+h6 {
+  max-width: 310px;
+}
+
+.btn {
+  color: rgba(231, 236, 239) !important;
+  border: 1px solid rgba(231, 236, 239) !important;
+}
+
+.texte {
+  color: rgba(39, 41, 50) !important;
+}
+
+h1 {
+  font-size: 50px !important;
+  padding: 30px;
+}
